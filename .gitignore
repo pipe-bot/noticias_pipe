@@ -1,0 +1,21 @@
+
+venv/
+.venv/
+env/
+vnoticias/
+
+# Archivos que genera Python
+__pycache__/
+*.pyc
+
+# Archivos que genera "collectstatic"
+staticfiles/
+
+# Editores / sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Nota: db.sqlite3 y media/ SÍ se suben, para que el portal publicado
+# muestre las noticias y los usuarios que ya creaste.
